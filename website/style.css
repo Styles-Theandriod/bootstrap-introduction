@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-animate {
+    animation: moveText 20s ease-in infinite;
+}
+
+.text-animate::after{
+    position: absolute;
+    content: 'Anonymous';
+    color: green;
+    margin-left: 30px;
+    animation: tt 20s infinite;
+}
+
+.box{
+    background-color: orange;
+    width: 8%;
+    height: 100px;
+    margin: 0 auto;
+    clip-path: circle();
+    animation: box 2s ease-in infinite;
+    border: 2px solid black;
+}
+
+
+@keyframes moveText {
+    from {
+        color: red;
+        font-size: 40px;
+    }
+
+    to {
+        color: blue;
+
+    }
+}
+/* end of moveText */
+@keyframes box {
+    from {
+        transform: rotate(0deg);
+        background-color: green;
+
+    }
+
+    to {
+        transform: rotate(360deg);
+        background-color: red;
+    }
+}
+
+
+@keyframes tt{
+    0%{
+        color: orange;
+    }
+    20%{
+        color: blueviolet;
+        content: 'balance';
+    }
+    40%{
+        content: 'Freelancer';
+    }
+}

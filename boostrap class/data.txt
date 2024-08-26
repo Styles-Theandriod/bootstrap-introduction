@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <h2>Hello world</h2>
+    <h3>Hello world</h3>
+    <h4>Hello world</h4>
+    <h5>Hello world</h5>
+    <h6>Hello world</h6>
+
+    <h1 class="display-1">Display 1</h1>
+    <h2 class="display-2">Display 1</h2>
+    <h3 class="display-3">Display 1</h3>
+    <h4 class="display-4">Display 1</h4>
+    <h5 class="display-5">Display 1</h5>
+    <h6 class="display-6">Display 1</h6>
+    
+
+    <h1 class="text-start">Text Start</h1>
+    <h1 class="text-center">Text Center</h1>
+    <h1 class="text-end">Text end</h1>
+
+    <!-- two types of containers -->
+    <!-- container and container-fluid -->
+
+    <!-- colors in bootstrap -->
+     <!-- primary secondary warning danger white dark light muted success  -->
+      <!-- bg  -->
+
+    <div class="container bg-danger d-flex justify-content-around">
+        <h1 class="text-white">This is a container Div</h1>
+        <h1 class="text-white">This is a container Div</h1>
+    </div>
+
+    <div class="container-fluid bg-secondary">
+        <h1>This is a container fluid</h1>
+    </div>
+
+    <!-- m - margin 
+    mt - margintop 
+    ms - marginstart ( marginLeft)
+    me - marginEnd (marginRight)
+    mb - marginBottom
+    my - marginTop and marginBottom
+    mx - marginLeft and marginRight -->
+
+    <!-- p - padding 
+    pt - paddingtop 
+    ps - paddingstart ( marginLeft)
+    pe - paddingEnd (marginRight)
+    pb - paddingBottom
+    py - paddingTop and paddingBottom
+    px - paddingLeft and paddingRight -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
